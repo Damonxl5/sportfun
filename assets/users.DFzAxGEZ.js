@@ -1,0 +1,1 @@
+import{r}from"./request.D-WYEYww.js";function e(){return r("/users/me","GET")}function n(){return r("/users/me/pending-count","GET")}function s(e){return r("/users/avatar","POST",e)}function u(e){return r("/users/me","PUT",e)}export{e as a,n as b,u as c,s as d};

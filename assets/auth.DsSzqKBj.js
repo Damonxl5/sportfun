@@ -1,0 +1,1 @@
+import{x as n,g as r,X as t}from"./index-Cp_lHqHW.js";function o(){return!!r("token")}function s(){const n=r("userInfo");if(!n)return null;try{return JSON.parse(n)}catch{return null}}function u(n,r){t("token",n),t("userInfo",JSON.stringify(r))}function e(){return!!o()||(n({url:"/subpackages/common/login/index"}),!1)}export{s as g,e as r,u as s};

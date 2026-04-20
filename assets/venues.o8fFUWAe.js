@@ -1,0 +1,1 @@
+import{r as e}from"./request.D-WYEYww.js";function n(n={}){const t=Object.entries(n).filter(([,e])=>void 0!==e&&""!==e).map(([e,n])=>`${e}=${encodeURIComponent(String(n))}`).join("&");return e("/venues"+(t?"?"+t:""),"GET")}export{n as a};
